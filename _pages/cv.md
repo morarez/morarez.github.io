@@ -12,13 +12,13 @@ redirect_from:
 Education
 ======
 * B.S. in Computer Engineering, Ferdowsi University, 2019
+* M.S. in Artificial Intelligence and Data Engineering, Pisa University, 2022 (Expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
+* Summer 2016: Research Assistant
   * Github University
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
 * Fall 2015: Research Assistant
   * Github University
