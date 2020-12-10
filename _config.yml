@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Morteza"
   avatar           : "profile.png"
-  bio              : "coming soon..."
-  location         : "Location"
+  bio              : "..."
+  location         : "Mashhad, Iran"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :
+  email            :"m.arezoumandan@studenti.unipi.it"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         :"https://linkedin.com/in/morteza-arezoumandan-79892416a/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
