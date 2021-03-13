@@ -105,7 +105,7 @@ author:
   linkedin         : "morteza-arezoumandan-79892416a"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
-  soundcloud       :
+  soundcloud       : https://open.spotify.com/playlist/2MGMyk7tVEzqb2DBpxbki9?si=Wq97LvP2Tt6XF3yX18f-iw
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
@@ -115,8 +115,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  spotify playlist : https://open.spotify.com/playlist/2MGMyk7tVEzqb2DBpxbki9?si=Wq97LvP2Tt6XF3yX18f-iw
-
 
 # Reading Files
 include:
