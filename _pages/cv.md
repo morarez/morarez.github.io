@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-*  Jul 2018 - Feb 2019: Silver Age Company
+* Jul 2018 - Feb 2019: Silver Age Company
   * iOS Developer
   * Developed a credit shopping application
 
