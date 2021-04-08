@@ -18,7 +18,7 @@ Work experience
 ======
 *  Jul 2018 - Feb 2019: Silver Age Company
   * iOS Developer
-  *  Developed a credit shopping application
+  * Developed a credit shopping application
 
 * Jan 2020 – Jul 2020: PART Software Group
   * iOS Developer
