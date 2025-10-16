@@ -16,17 +16,27 @@ Education
 
 Work experience
 ======
+
+* Jan 2020 – Jul 2020: PART Software Group
+  * iOS Developer
+  * Contriubted on developing a market data application
+
+* Jan 2020 – Jul 2020: PART Software Group
+  * iOS Developer
+  * Contriubted on developing a market data application
+
+* Jan 2020 – Jul 2020: PART Software Group
+  * iOS Developer
+  * Contriubted on developing a market data application
+
 * Jul 2018 - Feb 2019: Silver Age Company
   * iOS Developer
   * Developed a credit shopping application
 
-* Jan 2020 – Jul 2020: PART Software Group
-  * iOS Developer
-  * Duties included: ...
   
 Skills
 ======
 * Programming languages:
-  * Python, Java, Swift, Matlab, Erlang
+  * Python, Java, Go, Erlang, Bash
 * Frameworks and Tools:
-  * Git, Xcode, Scikit-learn, Maven, MongoDB, Neo4J
+  * 
