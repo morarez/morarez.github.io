@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Morteza Arezoumandan"
-  avatar           : "prof.jpg"
-  bio              : "DevOps Engineer @ ION Group"
+  avatar           : "prof.png"
+  bio              : "Software Engineer @ ION Group"
   location         : "Pisa, Italy"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
