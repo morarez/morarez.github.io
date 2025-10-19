@@ -34,8 +34,8 @@ import pandas as pd
 
 # In[3]:
 
-projects = pd.read_csv("projects.tsv", sep="\t", header=0)
-projects
+publications = pd.read_csv("publications.tsv", sep="\t", header=0)
+publications
 
 
 # ## Escape special characters
@@ -62,7 +62,7 @@ def html_escape(text):
 # In[5]:
 
 import os
-for row, item in projects.iterrows():
+for row, item in publications.iterrows():
     
     md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(item.pub_date) + "-" + item.url_slug
@@ -71,10 +71,11 @@ for row, item in projects.iterrows():
     ## YAML variables
     
     md = "---\ntitle: \""   + item.title + '"\n'
+
+    # TODO Update to use the category assigned in the TSV file
+    md += """collection: manuscripts"""
     
-    md += """collection: projects"""
-    
-    md += """\npermalink: /projects/""" + html_filename
+    md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
@@ -102,7 +103,6 @@ for row, item in projects.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../projects/" + md_filename, 'w') as f:
+    with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-
 
