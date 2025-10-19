@@ -1,11 +1,11 @@
 ---
 permalink: /
 title: "About Me"
-excerpt: "Platform Engineer"
+excerpt: "Software Engineer"
 author_profile: true
 ---
 
-Software Engineer with experience in both cloud-native and on-premise infrastructure environments. Specializing in Kubernetes, I architect and implement scalable, automated platform solutions. I have been engaged with the CNCF ecosystem, consistently integrating open-source tools into my work
+Platform Engineer with experience in both cloud-native and on-premise infrastructure environments. Specializing in Kubernetes, I architect and implement scalable, automated platform solutions. I have been engaged with the CNCF ecosystem, consistently integrating open-source tools into my work
 
 ## Areas of Expertise
 
