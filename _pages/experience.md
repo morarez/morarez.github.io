@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Work experience
-======
-
+## Work experience
 * Mar 2023 – Now: ION Group
   * DevOps Engineer
 
@@ -27,7 +25,6 @@ Work experience
   * iOS Developer
   * Developed a credit shopping application
 
-Education
-======
+## Education
 * B.S. in Computer Engineering, Ferdowsi University, 2019
 * M.S. in Artificial Intelligence and Data Engineering, University of Pisa, 2023
