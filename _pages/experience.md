@@ -10,8 +10,15 @@ redirect_from:
 {% include base_path %}
 
 ## Work experience
-* Mar 2023 – Now: ION Group
+* Mar 2023 – May 2026: ION Group
   * DevOps Engineer
+    * Engineered an on-premise PaaS solution on Kubernetes for banking clients, managing networking, monitoring, DNS, certificates, and deployment strategies.
+    * Managed and automated on-premise Kubernetes clusters with Rancher as the upstream solution and RKE2, using Ansible to provision infrastructure and Terraform to drive deployment pipelines.
+    * Orchestrated end-to-end Kubernetes deployments using ArgoCD with Helm chart wrappers, standardizing releases, and accelerating delivery across environments.
+    * Managed logging in a Kubernetes environment using the Logging Operator and OpenSearch, implementing complex indexing, log retention policies, and structured analysis for improved observability and troubleshooting.
+    * Architected and deployed a highly available MS SQL Server cluster on AWS, reducing infrastructure costs. Streamlined deployment with IaC for efficiency.
+    * Designed and developed a cookie-based customized HAProxy load balancer with sharding in a Kubernetes environment, enhancing the application scalability.
+    * Developed Azure DevOps pipelines for automated deployment of resources both on-cloud and on-premise, leveraging Terraform for infrastructure provisioning and Ansible for configuration management.
 
 * Feb 2022 – Dec 2022: National Research Council of Italy
   * Research Assistant Intern
