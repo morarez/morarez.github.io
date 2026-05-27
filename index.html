@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     
     <!-- Heroicons / Lucide through CDN -->
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.477.0/dist/umd/lucide.min.js"></script>
 
     <script>
         tailwind.config = {
@@ -511,7 +511,7 @@
             // Show Modal and disable scroll
             document.getElementById('blogModal').classList.remove('hidden');
             document.body.style.overflow = 'hidden';
-            lucide.createIcons();
+            safeCreateIcons();
         }
 
         function closeBlogPost() {
@@ -525,7 +525,20 @@
         });
 
         // Initialize Lucide icons
-        lucide.createIcons();
+        function safeCreateIcons() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
+        }
+
+        // Run immediately
+        safeCreateIcons();
+
+        // Run when DOM is ready
+        document.addEventListener('DOMContentLoaded', safeCreateIcons);
+
+        // Run when fully loaded
+        window.addEventListener('load', safeCreateIcons);
     </script>
 </body>
 </html>
